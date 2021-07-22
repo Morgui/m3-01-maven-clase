@@ -15,13 +15,13 @@
 		<url>http://localhost:8080/api</url>
 	</organization>
 	<name>Awesome app backend</name>
-	<description>Proyecto de prueba con entidades</description>
+	<description>Proyecto de prueba</description>
 
 	<packaging>jar</packaging>
 
 	<contributors>
 		<contributor>
-			<name>alan</name>
+			<name>luz</name>
 			<organization>Cosmic developments</organization>
 		</contributor>
 	</contributors>
