@@ -27,4 +27,7 @@ pipeline {
             }
         }
     }
+    stage('Sonar') { steps { sh 'mvn verify sonar:sonar -Dsonar.projectKey=Morgui_m3-01-maven-clase -Dsonar.organization=morgui -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=9a84ea1d292eed35e7726e38e8a4a86b89390f4c -Dsonar.branch.name=master' 
+    } 
+    } 
 }
